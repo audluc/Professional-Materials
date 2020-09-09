@@ -4,13 +4,13 @@ html {
 }
 
 body {
-  background-image: url("assets/images/colt.jpg");
-  background-repeat: no-repeat;
+  background-image: url("assets_images/images/rain.jpg");
+  background-repeat: repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .bg {
-  background-image: url("assets/images/colt.jpg");
+  background-image: url("assets_images/images/rain.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
