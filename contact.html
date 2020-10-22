@@ -14,33 +14,39 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>Contact</title>
+    <link rel="stylesheet" href="assets_images/style.css"/>
+    <script>
+      src="https://kit.fontawesome.com/d8fb3e2ef4.js"
+      crossorigin="anonymous"
+    </script>
+    
   </head>
   <!---Header-->
-  <body class="bg-secondary">
-    <nav class="navbar navbar-expand navbar-light bg-light p-0 border-bottom">
-      <div class="container">
-        <a class="navbar-brand bg-primary p-4 m-0" href="#"
-          ><h3>Audra Dagenais</h3></a>        >
+ 
+
         <!---navbar-->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+        <body class="bg-light">
+          <nav class="navbar navbar-expand navbar-dark fixed-top bg-dark py-3 border-bottom">
+            <div class="container">
+              <a class="navbar-brand" href="#"
+                ><h1>Audra Dagenais</h1></a>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active"><a class="nav-link" href="index.html">About </a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     <!--nav bar and header end-->
     <!---beginning of contact form-->
+    <div class="container content"> 
+      <div class="row">
+        <div class="col-xl-10 col-md-10 col-sm-10">
     <form>
       <div class="form-group">
         <label for="name">Name</label>
@@ -63,19 +69,18 @@
       <div class="form-group form-check">
         <input type="checkbox" class="form-check-input" id="exampleCheck1" />
         <label class="form-check-label" for="exampleCheck1">Contact me</label>
-
-        <div id="social" class="module0">
-          <h2>Contact Me</h2>
-          <a href="https://github.com/audluc"><img src="assets_images/images/github.png"/></a>
-          <a href="https://www.linkedin.com/in/Audra-Dagenais/"><img src="assets_images/images/linkedin.png"/></a>
-          <a href="mailto:audluc44@gmail.com?subject=Mail from our Website"><img src="assets_images/images/email.png"/></a>
+        <button type="button" class="btn btn-info">Submit</button>
+</div></form>
+</div> </div> </div>
+        <footer class= "bg-dark">   <div class="row w-100 py-4 justify-content-center align-items-center flex-column">
+          <div id="social" class="module0">
+            <a href="https://github.com/audluc"><i class="fab fa-github text-light"></i>
+            <a href="https://www.linkedin.com/in/Audra-Dagenais/"><i class="fab fa-linkedin text-light"></i></a>
+            <a href="mailto:audluc44@gmail.com?subject=Mail from our Website"><i class="fas fa-envelope text-light"></i>
+          </div>
+          <div class="text-muted my-2">&copy; 2020 Audra Dagenais</div>
         </div>
-        >
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-
-    <footer> &copy; 2020 Audra Dagenais</footer>
+      </footer> 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
